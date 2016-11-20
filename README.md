@@ -1,4 +1,4 @@
-# nightwatch-test ![Build Status](https://travis-ci.org/siwatpru/nightwatch-test.svg?branch=master)
+# nightwatch-test [![Build Status](https://travis-ci.org/siwatpru/nightwatch-test.svg?branch=master)](https://travis-ci.org/siwatpru/nightwatch-test)
 
 > Basic Nightwatch.js configuration
 
