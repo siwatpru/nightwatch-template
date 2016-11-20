@@ -32,6 +32,15 @@ module.exports = {
         browserName: 'chrome',
         javascriptEnabled: true
       }
+    },
+    phantomjs: {
+      desiredCapabilities : {
+        browserName : 'phantomjs',
+        javascriptEnabled : true,
+        acceptSslCerts : true,
+        'phantomjs.binary.path' : '/usr/local/phantomjs/bin/phantomjs',
+        'phantomjs.cli.args' : []
+      }
     }
   }
 }

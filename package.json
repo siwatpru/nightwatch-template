@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "postinstall": "node nightwatch.conf.js",
-    "pree2e": "node nightwatch.conf.js",
-    "e2e": "node_modules/.bin/nightwatch"
+    "e2e": "node_modules/.bin/nightwatch",
+    "e2e:phantomjs": "node_modules/.bin/nightwatch -e phantomjs"
   },
   "author": "Siwat Pruksapanya <siwat.pru@outlook.com>",
   "license": "MIT",
